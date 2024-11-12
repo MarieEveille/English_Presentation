@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Details</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+</head>
+<body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+
+    <nav id="header" class="w-full z-30 top-0 py-1">
+        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
+
+            <label for="menu-toggle" class="cursor-pointer md:hidden block">
+                <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <title>menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </label>
+            <input class="hidden" type="checkbox" id="menu-toggle" />
+
+            <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
+                <a class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a1 1 0 01-.707-1.707L14.586 10 9.293 4.707A1 1 0 0110.707 3.293l6 6a1 1 0 010 1.414l-6 6A1 1 0 0110 18z" clip-rule="evenodd" />
+                    </svg>
+                    Back to home
+                </a>
+            </div>
+
+            <div class="order-1 md:order-2">
+                
+            </div>
+
+            <div class="order-2 md:order-3 flex items-center" id="nav-content">
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto py-8" id="details-container">
+        
+        <!-- Person details will be displayed here -->
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Retrieve URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const nom = urlParams.get('nom');
+            const prenom = urlParams.get('prenom');
+
+            // Load data from the JSON file
+            fetch("personnes.json")
+                .then(response => response.json())
+                .then(personnes => {
+                    // Find the corresponding person
+                    const personne = personnes.find(p => p.nom === nom && p.prenom === prenom);
+
+                    if (personne) {
+                        const detailsContainer = document.getElementById("details-container");
+                        detailsContainer.innerHTML = `
+                            <div class="max-w-lg mx-auto p-6 bg-white shadow-md rounded">
+                                <img src="${personne.photo_url || 'https://via.placeholder.com/600'}" alt="${personne.nom} ${personne.prenom}" class="w-full h-auto mb-4">
+                                <h1 class="text-2xl font-bold mb-2">${personne.nom} ${personne.prenom}</h1>
+                                <p><strong>Age:</strong> ${personne.age || "N/A"}</p>
+                                <p><strong>Date of Birth:</strong> ${personne.date_naissance || "N/A"}</p>
+                                <p>
+                                    <strong>Place of Birth:</strong> ${personne.lieu_naissance.ville || ""}, ${personne.lieu_naissance.pays || ""}
+                                    ${personne.lieu_naissance.drapeau_url ? `<img src="${personne.lieu_naissance.drapeau_url}" alt="Flag of ${personne.lieu_naissance.pays}" class="inline-block w-6 h-4 ml-2">` : ""}
+                                </p>
+                                <p><strong>Coding Strengths:</strong> ${personne.coding_strengths.join(", ") || "N/A"}</p>
+                                <p><strong>Coding Weaknesses:</strong> ${personne.coding_weaknesses.join(", ") || "N/A"}</p>
+                                <p><strong>Biggest Achievement in Coding:</strong> ${personne.biggest_achievement_coding || "N/A"}</p>
+                                <p><strong>Fun Fact:</strong> ${personne.fun_fact || "N/A"}</p>
+                            </div>
+                        `;
+                    } else {
+                        document.getElementById("details-container").innerHTML = "<p>Person not found</p>";
+                    }
+                })
+                .catch(error => console.error("Error loading details:", error));
+        });
+    </script>
+
+</body>
+</html>

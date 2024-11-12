@@ -1,0 +1,375 @@
+[
+    {
+        "nom": "ASTADJAM",
+        "prenom": "AHMADOU",
+        "photo_url": "./m2/ASTADJAM.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": ""
+        },
+        "coding_strengths": ["JavaScript", "Problem-solving", "React"],
+        "coding_weaknesses": ["CSS animations", "Database design"],
+        "biggest_achievement_coding": "Developed a real-time chat app.",
+        "fun_fact": "Loves to code with lofi music."
+    },
+    {
+        "nom": "BALZANO",
+        "prenom": "ROMAIN",
+        "photo_url": "./m2/BALZANO.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "Porto-Vecchio",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Python", "API Development"],
+        "coding_weaknesses": ["Front-end design"],
+        "biggest_achievement_coding": "Built a personal finance management system.",
+        "fun_fact": "Enjoys coding while sipping coffee."
+    },
+    {
+        "nom": "BATHILY",
+        "prenom": "YAHAYA",
+        "photo_url": "./m2/BATHILY.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": ""
+        },
+        "coding_strengths": ["Machine Learning", "Data Analysis"],
+        "coding_weaknesses": ["JavaScript", "UI Design"],
+        "biggest_achievement_coding": "Created an AI to detect fraud.",
+        "fun_fact": "Always codes at night."
+    },
+    {
+        "nom": "BELARIF",
+        "prenom": "LOUIZA",
+        "photo_url": "./m2/BELARIF.png",
+        "age": 29,
+        "date_naissance": "21/08/1995",
+        "lieu_naissance": {
+            "ville": "Algeriers",
+            "pays": "Algeria",
+            "drapeau_url": "./pays/algerie.png"
+        },
+        "coding_strengths": ["HTML", "CSS", "Responsive Design"],
+        "coding_weaknesses": ["Back-end development"],
+        "biggest_achievement_coding": "Designed a website for a local charity.",
+        "fun_fact": "Prefers coding barefoot."
+    },
+    {
+        "nom": "BENAMEUR",
+        "prenom": "KAOUTAR",
+        "photo_url": "./m2/BENAMEUR.png",
+        "age": 25,
+        "date_naissance": "19/06/1999",
+        "lieu_naissance": {
+            "ville": "Alger",
+            "pays": "Algeria",
+            "drapeau_url": "./pays/algerie.png"
+        },
+        "coding_strengths": ["React", "Node.js"],
+        "coding_weaknesses": ["SQL", "Testing"],
+        "biggest_achievement_coding": "Built a task management app.",
+        "fun_fact": "Collects vintage tech gadgets."
+    },
+    {
+        "nom": "BENSALEM",
+        "prenom": "ILYAS",
+        "photo_url": "./m2/BENSALEM.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Algorithms", "Problem-solving"],
+        "coding_weaknesses": ["CSS", "UI/UX"],
+        "biggest_achievement_coding": "Won a hackathon in 2023.",
+        "fun_fact": "Loves debugging more than coding."
+    },
+    {
+        "nom": "BOVY",
+        "prenom": "THOMAS",
+        "photo_url": "./m2/BOVY.png",
+        "age": 24,
+        "date_naissance": "07/09/2000",
+        "lieu_naissance": {
+            "ville": "Ajaccio",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Data Structures", "Python"],
+        "coding_weaknesses": ["Front-end frameworks"],
+        "biggest_achievement_coding": "Built a data visualization dashboard.",
+        "fun_fact": "Can code in 4 different languages."
+    },
+    {
+        "nom": "COLIN",
+        "prenom": "ANTHONY",
+        "photo_url": "./m2/COLIN.png",
+        "age": 22,
+        "date_naissance": "11/03/2002",
+        "lieu_naissance": {
+            "ville": "Ajaccio",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Java", "Spring Boot"],
+        "coding_weaknesses": ["Python", "Testing"],
+        "biggest_achievement_coding": "Automated a customer service chatbot.",
+        "fun_fact": "Loves to travel to code camps."
+    },
+    {
+        "nom": "EVEILLE",
+        "prenom": "MARIE",
+        "photo_url": "./m2/EVEILLE.png",
+        "age": 23,
+        "date_naissance": "09/08/2001",
+        "lieu_naissance": {
+            "ville": "Quimper",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": [
+            "React", "Angular", "HTML5", "CSS3", "TypeScript", "Node.js", 
+            "Flask", "Express", "C#", "MySQL", "MongoDB", "Git", "Docker", 
+            "Postman", "Figma", "Cloudinary"
+        ],
+        "coding_weaknesses": ["Java", "Vue.js"],
+        "biggest_achievement_coding": "Built an e-commerce front-end.",
+        "fun_fact": "I'm a Master's student in Fullstack Development with a deep passion for creating dynamic and impactful web applications. \n My main expertise lies in front-end and back-end development. For the front-end, I work primarily with React, Angular, HTML5, CSS3, and TypeScript, while on the back-end, my focus is on Node.js, Flask, and Express.\n I'm comfortable with both relational and non-relational databases like MySQL and MongoDB, and I'm proficient with essential tools including Git, Docker, Postman, Figma, and Cloudinary. \n Currently, I'm working on TrackMates, an educational platform designed to personalize learning by integrating AI and cognitive science, built with a React front-end and a Python Flask back-end. \n Additionally, I'm developing my portfolio in Angular, aiming to further enhance my skills in the framework. Recently, I completed projects like Crudité, an e-commerce website comparing three front-end frameworks (React, Angular, and Vue) with a Node.js backend. \n I'm also delving into advanced topics in machine learning and reinforcement learning to expand my skill set. I'm always interested in collaborating on web applications, be it front-end or back-end, and am happy to discuss all things fullstack development, especially when it comes to JavaScript, Python, Java, or C#. \n I once built a web game just to draw funny doodles on the page!"
+    },
+    
+    {
+        "nom": "FORTINI",
+        "prenom": "DONAT",
+        "photo_url": "./m2/FORTINI.png",
+        "age": 24,
+        "date_naissance": "28/11/2000",
+        "lieu_naissance": {
+            "ville": "Porto-Vecchio",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["PHP", "MySQL"],
+        "coding_weaknesses": ["JavaScript"],
+        "biggest_achievement_coding": "Developed a blog platform.",
+        "fun_fact": "Codes with a cat on his lap."
+    },
+    {
+        "nom": "GARAU",
+        "prenom": "THOMAS",
+        "photo_url": "./m2/GARAU.png",
+        "age": 23,
+        "date_naissance": "01/06/2001",
+        "lieu_naissance": {
+            "ville": "Nice",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["JavaScript", "Node.js", "Express"],
+        "coding_weaknesses": ["CSS", "Database management"],
+        "biggest_achievement_coding": "Built a social networking API.",
+        "fun_fact": "Always codes with two monitors."
+    },
+    {
+        "nom": "GRAZIETTI",
+        "prenom": "LIVIA",
+        "photo_url": "./m2/GRAZIETTI.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Ruby on Rails", "JavaScript"],
+        "coding_weaknesses": ["TypeScript"],
+        "biggest_achievement_coding": "Created a task automation tool.",
+        "fun_fact": "Prefers coding in cafes."
+    },
+    {
+        "nom": "HAMADENE",
+        "prenom": "YASMINE",
+        "photo_url": "./m2/HAMADENE.png",
+        "age": 24,
+        "date_naissance": "02/04/2000",
+        "lieu_naissance": {
+            "ville": "Béjaia",
+            "pays": "Algeria",
+            "drapeau_url": "./pays/algerie.png"
+        },
+        "coding_strengths": ["Python", "Data Science", "Machine Learning"],
+        "coding_weaknesses": ["Front-end Design"],
+        "biggest_achievement_coding": "Developed a recommendation system.",
+        "fun_fact": "Loves finding bugs in code."
+    },
+    {
+        "nom": "ISMAEL OTBAN",
+        "prenom": "MOHAMED",
+        "photo_url": "./m2/ISMAEL.png",
+        "age": 21,
+        "date_naissance": "06/01/2003",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": ""
+        },
+        "coding_strengths": ["Backend Development", "Java"],
+        "coding_weaknesses": ["CSS Flexbox", "UX Design"],
+        "biggest_achievement_coding": "Created an inventory management system.",
+        "fun_fact": "Enjoys coding with classical music."
+    },
+    {
+        "nom": "KILIMOU",
+        "prenom": "POUWEDEOU",
+        "photo_url": "./m2/KILIMOU.png",
+        "age": 23,
+        "date_naissance": "07/12/2000",
+        "lieu_naissance": {
+            "ville": "Lome",
+            "pays": "Togo",
+            "drapeau_url": "./pays/togo.png"
+        },
+        "coding_strengths": ["C++", "Algorithms"],
+        "coding_weaknesses": ["JavaScript"],
+        "biggest_achievement_coding": "Built a custom game engine.",
+        "fun_fact": "Codes while listening to podcasts."
+    },
+    {
+        "nom": "LECULIER",
+        "prenom": "LUCAS",
+        "photo_url": "./m2/LECULIER.png",
+        "age": 22,
+        "date_naissance": "23/02/2002",
+        "lieu_naissance": {
+            "ville": "Bastia",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Java", "Spring"],
+        "coding_weaknesses": ["React", "Vue.js"],
+        "biggest_achievement_coding": "Developed an e-commerce backend.",
+        "fun_fact": "Can solve a Rubik's cube in under a minute."
+    },
+    {
+        "nom": "MARCHISELLI",
+        "prenom": "ANTHONY",
+        "photo_url": "./m2/MARCHISELLI.png",
+        "age": 23,
+        "date_naissance": "21/10/2001",
+        "lieu_naissance": {
+            "ville": "Ajaccio",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Python", "Django"],
+        "coding_weaknesses": ["CSS Grid", "JavaScript"],
+        "biggest_achievement_coding": "Created a real-time chat application.",
+        "fun_fact": "Collects programming books."
+    },
+    {
+        "nom": "MARECHAL-BALLE",
+        "prenom": "ANTOINE",
+        "photo_url": "./m2/MARECHAL.png",
+        "age": 21,
+        "date_naissance": "24/04/2003",
+        "lieu_naissance": {
+            "ville": "Evreux",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["PHP", "Laravel"],
+        "coding_weaknesses": ["Frontend frameworks"],
+        "biggest_achievement_coding": "Built a custom CMS.",
+        "fun_fact": "Prefers coding on weekends."
+    },
+    {
+        "nom": "PIACENTINI",
+        "prenom": "THEO",
+        "photo_url": "./m2/PIACENTINI.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["SQL", "Data Analysis"],
+        "coding_weaknesses": ["JavaScript", "React"],
+        "biggest_achievement_coding": "Automated data processing pipelines.",
+        "fun_fact": "Loves coding with dark themes."
+    },
+    {
+        "nom": "RENKAS",
+        "prenom": "VITALII",
+        "photo_url": "./m2/RENKAS.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": ""
+        },
+        "coding_strengths": ["JavaScript", "TypeScript", "Angular"],
+        "coding_weaknesses": ["Database Management"],
+        "biggest_achievement_coding": "Built a dynamic website for a local business.",
+        "fun_fact": "Prefers coding in the early morning."
+    },
+    {
+        "nom": "VIGNEAU",
+        "prenom": "PASCAL",
+        "photo_url": "./m2/VIGNEAU.png",
+        "age": 22,
+        "date_naissance": "29/04/2002 ",
+        "lieu_naissance": {
+            "ville": "Ajaccio",
+            "pays": "France",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["React", "Redux"],
+        "coding_weaknesses": ["Backend development"],
+        "biggest_achievement_coding": "Created an app with 10,000+ downloads.",
+        "fun_fact": "Always codes with coffee by his side."
+    },
+    {
+        "nom": "VINCIGUERRA",
+        "prenom": "PAUL-ANTOINE",
+        "photo_url": "./m2/VINCIGUERRA.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": "./pays/france.png"
+        },
+        "coding_strengths": ["Python", "Flask"],
+        "coding_weaknesses": ["Frontend development"],
+        "biggest_achievement_coding": "Built a personalized quiz platform.",
+        "fun_fact": "Writes code better than he writes texts."
+    },
+    {
+        "nom": "YAAKOUB",
+        "prenom": "CHAKER",
+        "photo_url": "./m2/CHAKER.png",
+        "age": 0,
+        "date_naissance": "",
+        "lieu_naissance": {
+            "ville": "",
+            "pays": "",
+            "drapeau_url": ""
+        },
+        "coding_strengths": ["Java", "Android Development"],
+        "coding_weaknesses": ["Databases", "API integrations"],
+        "biggest_achievement_coding": "Created a photo-sharing Android app.",
+        "fun_fact": "Can code while standing up for hours."
+    }
+]
